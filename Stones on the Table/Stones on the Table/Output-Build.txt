@@ -1,0 +1,7 @@
+﻿Build started...
+1>------ Build started: Project: Stones on the Table, Configuration: Debug Win32 ------
+1>main.cpp
+1>D:\TITIPAN ORANG\Fatah\Sheet\Stones on the Table\Stones on the Table\main.cpp(15,11): warning C4018: '<': signed/unsigned mismatch
+1>Stones on the Table.vcxproj -> D:\TITIPAN ORANG\Fatah\Sheet\Stones on the Table\Debug\Stones on the Table.exe
+1>Done building project "Stones on the Table.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1609517287 source:d:\titipan orang\fatah\sheet\petya and strings\main.cpp
+	<iostream>
+	<cctype>
+	<cstring>
+
