@@ -2,10 +2,42 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    int c = 0, w = 0, h = 0, n = 0, np;
+	bool isNotEnough, isPossible;
+	cin >> c;
+	for (int i = 0; i < c; i++)
+	{
+		cin >> w >> h >> n;
+		isNotEnough = true; isPossible = true; np = 1;
+		while (isNotEnough == true && isPossible == true) {
+			if (np >= n) {
+				isNotEnough = false;
+			}
+			else if (w % 2 == 0 || h % 2 == 0) {
+				if (w % 2 == 0)
+				{
+					w /= 2;
+					np *= 2;
+				}
+				else {
+					h /= 2;
+					np *= 2;
+				}
+			}
+			else {
+				isPossible = false;
+			}
+		}
+		if (isPossible == true) {
+			cout << "yes" << endl;
+		}
+		else {
+			cout << "no" << endl;
+		}
+	}
 
 
 
